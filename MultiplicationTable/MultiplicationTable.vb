@@ -2,6 +2,7 @@
 'RCET 2265
 'Spring 2025
 'MULTIPLICATIONTABLE
+'https://github.com/alxsvxn/MultiplicationTable.git
 
 Option Compare Text
 Option Strict On
