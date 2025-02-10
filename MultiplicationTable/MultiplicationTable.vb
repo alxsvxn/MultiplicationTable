@@ -1,8 +1,11 @@
-﻿Option Compare Text
+﻿'Alexis Villagran
+'RCET 2265
+'Spring 2025
+'MULTIPLICATIONTABLE
+
+Option Compare Text
 Option Strict On
 Option Explicit On
-
-Imports System.Linq.Expressions
 
 Module MultiplicationTable
 
@@ -36,10 +39,12 @@ Module MultiplicationTable
             loopInput = False
 
             Do While userInput <> "Q" And loopInput = False
+
                 loopInput = True
                 Console.WriteLine()
                 Console.WriteLine($"Here is a {userInput}" & " * " &
                               $"{userInput} multiplication table!")
+
                 For i = 1 To tableSize
 
                     For j = 1 To tableSize
